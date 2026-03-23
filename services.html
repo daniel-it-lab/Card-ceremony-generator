@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+                <h1>Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="card.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-user"></i>About</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars"></i>Services</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <h1>Our Services</h1>
+            <div class="logo">
+                <div class="box">
+                    <i class="fa-solid fa-bell" id="bell"></i>
+                    <h2>Events ToolKit</h2>
+                    <p>Manage event's notifications</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-user" id="contact"></i>
+                    <h2>Invitations Manager</h2>
+                    <p>Create & Manage invitations</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-list-check" id="manager"></i>
+                    <h2>Contributors Manager</h2>
+                    <p>Manage event's notifications</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    <h2>Scan & Verify Cards</h2>
+                    <p>Ensure Authenticity of cards</p>
+                </div>
+                
+            </div>
+            <div class="form">
+                <label for="card">Select cards</label>
+                <select id="card" name="card">
+                    <option value="birthday">birthday</option>
+                    <option value="kitchen party">kitchen party</option>
+                    <option value="wedding">wedding</option>
+                    <option value="baby shower">baby shower</option>
+                    <option value="bachelor party">bachelor party</option>
+                </select>
+                <button id="select-card">Generate Card</button>
+            </div>
+        </header>
+    </div>
+    <footer>
+        <p>&copy; 2025 All rights reserved</p>
+    </footer>
+    
+</body>
+</html>
